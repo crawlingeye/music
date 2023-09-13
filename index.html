@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>VVVVV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <div class="menu">
+      <h1>KEVIN CASTRO</h1>
+      <h2>VVVVV
+      </h2>
+
+            <div class="library">
+              <h3>Sleepwalk - Johnny & Santos</h3>
+              <div class="audio-player">
+                <audio id="my-audio" src="https://snuhfiles.com/sound/santo-johnny-sleepwalk.mp3?play_key=e6ba8f023e92bbb5aaf06052cd0c6551" type="audio/mpeg"></audio>
+                <button id="rewind-button"><i class="fa-solid fa-backward"></i></button>
+                <button id="play-button"><i class="fa-solid fa-play"></i></button>
+                <button id="pause-button"><i class="fa-solid fa-pause"></i></button>
+                <button id="forward-button"><i class="fa-solid fa-forward"></i></button>
+                <!-- Other custom controls here -->
+              </div>
+
+              <h3>Police On My Back - The Clash</h3>
+              <div class="audio-player">
+                <audio id="my-audio-2" src="https://snuhfiles.com/sound/clash-police_on_my_back.mp3?play_key=e6ba8f023e92bbb5aaf06052cd0c6551" type="audio/mpeg"></audio>
+                <button id="rewind-button-2"><i class="fa-solid fa-backward"></i></button>
+                <button id="play-button-2"><i class="fa-solid fa-play"></i></button>
+                <button id="pause-button-2"><i class="fa-solid fa-pause"></i></button>
+                <button id="forward-button-2"><i class="fa-solid fa-forward"></i></button>
+                <!-- Other custom controls here -->
+              </div>
+
+              <h3>Float On - Modest Mouse</h3>
+              <div class="audio-player">
+                <audio id="my-audio-3" src="https://www.snuhfiles.com/sound/modest_mouse-float_on.mp3?play_key=e6ba8f023e92bbb5aaf06052cd0c6551" type="audio/mpeg"></audio>
+                <button id="rewind-button-3"><i class="fa-solid fa-backward"></i></button>
+                <button id="play-button-3"><i class="fa-solid fa-play"></i></button>
+                <button id="pause-button-3"><i class="fa-solid fa-pause"></i></button>
+                <button id="forward-button-3"><i class="fa-solid fa-forward"></i></button>
+                <!-- Other custom controls here -->
+              </div>
+              
+
+            <script>
+              const audio1 = document.getElementById("my-audio",);
+const playButton1 = document.getElementById("play-button");
+const pauseButton1 = document.getElementById("pause-button",);
+const rewindButton1 = document.getElementById("rewind-button",);
+const forwardButton1 = document.getElementById("forward-button",);
+
+playButton1.addEventListener("click", () => {
+  audio1.play();
+});
+
+pauseButton1.addEventListener("click", () => {
+  audio1.pause();
+});
+
+rewindButton1.addEventListener("click", () => {
+  audio1.currentTime -= 10;
+});
+
+forwardButton1.addEventListener("click", () => {
+  audio1.currentTime += 10;
+});
+
+const audio2 = document.getElementById("my-audio-2",);
+const playButton2 = document.getElementById("play-button-2");
+const pauseButton2 = document.getElementById("pause-button-2",);
+const rewindButton2 = document.getElementById("rewind-button-2",);
+const forwardButton2 = document.getElementById("forward-button-2",);
+
+playButton2.addEventListener("click", () => {
+  audio2.play();
+});
+
+pauseButton2.addEventListener("click", () => {
+  audio2.pause();
+});
+
+rewindButton2.addEventListener("click", () => {
+  audio2.currentTime -= 10;
+});
+
+forwardButton2.addEventListener("click", () => {
+  audio2.currentTime += 10;
+});
+
+
+const audio3 = document.getElementById("my-audio-3",);
+const playButton3 = document.getElementById("play-button-3");
+const pauseButton3 = document.getElementById("pause-button-3",);
+const rewindButton3 = document.getElementById("rewind-button-3",);
+const forwardButton3 = document.getElementById("forward-button-3",);
+
+playButton3.addEventListener("click", () => {
+  audio3.play();
+});
+
+pauseButton3.addEventListener("click", () => {
+  audio3.pause();
+});
+
+rewindButton3.addEventListener("click", () => {
+  audio3.currentTime -= 10;
+});
+
+forwardButton3.addEventListener("click", () => {
+  audio3.currentTime += 10;
+});
+
+
+            </script> 
+              <!--<audio controls name="song">
+                <source src="https://snuhfiles.com/sound/clash-police_on_my_back.mp3?play_key=e6ba8f023e92bbb5aaf06052cd0c6551" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio> 
+              <audio controls name="song">
+                <source src="https://www.snuhfiles.com/sound/modest_mouse-float_on.mp3?play_key=e6ba8f023e92bbb5aaf06052cd0c6551" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio> 
+            </div> -->
+          
+    </div>
+  
+</body>
+</html>

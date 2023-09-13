@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+
+
+.menu {
+  width: 80%;
+  background-color: rgb(31, 31, 31);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  max-width: 900px;
+  height: auto;
+  padding-top: 50px;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: Edwardian;
+  color: rgb(50, 50, 50);
+  text-align: center;
+}
+
+p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 36px;
+  color: rgb(150, 150, 150);
+  margin: 100px;
+  padding-bottom: 100px;
+  
+}
+
+text {text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 36px;
+  color: rgb(150, 150, 150);
+  
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  align-items: right;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 25px 25px;
+  margin-left: 30px;
+  background-color: #525252;
+  padding: 10px;
+  color: gray;
+  border: none;
+  border-radius: 100px;
+  text-align: center;}
+
+button:hover {color:gray;
+  background-color: white;}
+
+.audio-player {
+  background-color: rgb(50, 50, 50);
+  width: 400px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
