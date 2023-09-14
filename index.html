@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-  <div class="menu">
+
       <h1>KEVIN CASTRO</h1>
       <h2>VVVVV
       </h2>
 
             <div class="library">
-              <h3>Sleepwalk - Johnny & Santos</h3>
+              <h3>Welcome and Goodbye - Dreaming Ivory</h3>
               <div class="audio-player">
-                <audio id="my-audio" src="https://snuhfiles.com/sound/santo-johnny-sleepwalk.mp3?play_key=e6ba8f023e92bbb5aaf06052cd0c6551" type="audio/mpeg"></audio>
+                <audio id="my-audio" src="https://www.dropbox.com/scl/fi/qb7ycnzd8el4lgo1kzmjv/Dream-Ivory-Welcome-and-Goodbye.mp3?rlkey=8k47ehhxljuijli1a14rtnurb&dl=1" type="audio/mpeg"></audio>
                 <button id="rewind-button"><i class="fa-solid fa-backward"></i></button>
                 <button id="play-button"><i class="fa-solid fa-play"></i></button>
                 <button id="pause-button"><i class="fa-solid fa-pause"></i></button>
@@ -24,9 +24,9 @@
                 <!-- Other custom controls here -->
               </div>
 
-              <h3>Police On My Back - The Clash</h3>
+              <h3>1979- The Smashing Pumpkins</h3>
               <div class="audio-player">
-                <audio id="my-audio-2" src="https://snuhfiles.com/sound/clash-police_on_my_back.mp3?play_key=e6ba8f023e92bbb5aaf06052cd0c6551" type="audio/mpeg"></audio>
+                <audio id="my-audio-2" src="https://www.dropbox.com/scl/fi/u2ajbzrlvw4x22jc34v2c/The-Smashing-Pumpkins-1979-Official-Music-Video.mp3?rlkey=lc05v1iss2x91c3c1vceawy3g&dl=1" type="audio/mpeg"></audio>
                 <button id="rewind-button-2"><i class="fa-solid fa-backward"></i></button>
                 <button id="play-button-2"><i class="fa-solid fa-play"></i></button>
                 <button id="pause-button-2"><i class="fa-solid fa-pause"></i></button>
@@ -41,6 +41,46 @@
                 <button id="play-button-3"><i class="fa-solid fa-play"></i></button>
                 <button id="pause-button-3"><i class="fa-solid fa-pause"></i></button>
                 <button id="forward-button-3"><i class="fa-solid fa-forward"></i></button>
+                <!-- Other custom controls here -->
+              </div>
+
+              <h3>The Background - Third Blind Eye</h3>
+              <div class="audio-player">
+                <audio id="my-audio-4" src="https://www.dropbox.com/scl/fi/p3f1gxjc84i65dkbxwcxr/Third-Eye-Blind-The-Background.mp3?rlkey=hwimh746vafni1pdp5roi2q15&dl=1" type="audio/mpeg"></audio>
+                <button id="rewind-button-4"><i class="fa-solid fa-backward"></i></button>
+                <button id="play-button-4"><i class="fa-solid fa-play"></i></button>
+                <button id="pause-button-4"><i class="fa-solid fa-pause"></i></button>
+                <button id="forward-button-4"><i class="fa-solid fa-forward"></i></button>
+                <!-- Other custom controls here -->
+              </div>
+
+              <h3>Take You On A Cruise - Interpol</h3>
+              <div class="audio-player">
+                <audio id="my-audio-5" src="https://www.dropbox.com/scl/fi/nugiyl125vuyfiq8gg1hl/Take-You-on-a-Cruise.mp3?rlkey=dui9xd5hqgh79oor9kawcym24&dl=1" type="audio/mpeg"></audio>
+                <button id="rewind-button-5"><i class="fa-solid fa-backward"></i></button>
+                <button id="play-button-5"><i class="fa-solid fa-play"></i></button>
+                <button id="pause-button-5"><i class="fa-solid fa-pause"></i></button>
+                <button id="forward-button-5"><i class="fa-solid fa-forward"></i></button>
+                <!-- Other custom controls here -->
+              </div>
+
+              <h3>Youngest Daughter - Superheaven</h3>
+              <div class="audio-player">
+                <audio id="my-audio-6" src="https://www.dropbox.com/scl/fi/qkozi472u4egqsftgu270/Superheaven-Youngest-Daughter-Official-Visualizer.mp3?rlkey=4z7g80t6kl49gd1oa5k9vs66n&dl=1" type="audio/mpeg"></audio>
+                <button id="rewind-button-6"><i class="fa-solid fa-backward"></i></button>
+                <button id="play-button-6"><i class="fa-solid fa-play"></i></button>
+                <button id="pause-button-6"><i class="fa-solid fa-pause"></i></button>
+                <button id="forward-button-6"><i class="fa-solid fa-forward"></i></button>
+                <!-- Other custom controls here -->
+              </div>
+
+              <h3>Love You To Death - Type O Negative</h3>
+              <div class="audio-player">
+                <audio id="my-audio-7" src="https://www.dropbox.com/scl/fi/ijes6lt6cyvisalf0xx9p/Love-You-to-Death.mp3?rlkey=ik7hy50v5jtys44qcn6cmtokx&dl=1" type="audio/mpeg"></audio>
+                <button id="rewind-button-7"><i class="fa-solid fa-backward"></i></button>
+                <button id="play-button-7"><i class="fa-solid fa-play"></i></button>
+                <button id="pause-button-7"><i class="fa-solid fa-pause"></i></button>
+                <button id="forward-button-7"><i class="fa-solid fa-forward"></i></button>
                 <!-- Other custom controls here -->
               </div>
               
@@ -114,6 +154,95 @@ forwardButton3.addEventListener("click", () => {
 });
 
 
+const audio4= document.getElementById("my-audio-4",);
+const playButton4 = document.getElementById("play-button-4");
+const pauseButton4 = document.getElementById("pause-button-4",);
+const rewindButton4 = document.getElementById("rewind-button-4",);
+const forwardButton4 = document.getElementById("forward-button-4",);
+
+playButton4.addEventListener("click", () => {
+  audio4.play();
+});
+
+pauseButton4.addEventListener("click", () => {
+  audio4.pause();
+});
+
+rewindButton4.addEventListener("click", () => {
+  audio4.currentTime -= 10;
+});
+
+forwardButton4.addEventListener("click", () => {
+  audio4.currentTime += 10;
+});
+
+const audio5= document.getElementById("my-audio-5",);
+const playButton5 = document.getElementById("play-button-5");
+const pauseButton5 = document.getElementById("pause-button-5",);
+const rewindButton5 = document.getElementById("rewind-button-5",);
+const forwardButton5 = document.getElementById("forward-button-5",);
+
+playButton5.addEventListener("click", () => {
+  audio5.play();
+});
+
+pauseButton5.addEventListener("click", () => {
+  audio5.pause();
+});
+
+rewindButton5.addEventListener("click", () => {
+  audio5.currentTime -= 10;
+});
+
+forwardButton5.addEventListener("click", () => {
+  audio5.currentTime += 10;
+});
+
+const audio6 = document.getElementById("my-audio-6",);
+const playButton6 = document.getElementById("play-button-6");
+const pauseButton6 = document.getElementById("pause-button-6",);
+const rewindButton6 = document.getElementById("rewind-button-6",);
+const forwardButton6 = document.getElementById("forward-button-6",);
+
+playButton6.addEventListener("click", () => {
+  audio6.play();
+});
+
+pauseButton6.addEventListener("click", () => {
+  audio6.pause();
+});
+
+rewindButton6.addEventListener("click", () => {
+  audio6.currentTime -= 10;
+});
+
+forwardButton6.addEventListener("click", () => {
+  audio6.currentTime += 10;
+});
+
+const audio7 = document.getElementById("my-audio-7",);
+const playButton7 = document.getElementById("play-button-7");
+const pauseButton7 = document.getElementById("pause-button-7",);
+const rewindButton7 = document.getElementById("rewind-button-7",);
+const forwardButton7 = document.getElementById("forward-button-7",);
+
+playButton7.addEventListener("click", () => {
+  audio7.play();
+});
+
+pauseButton7.addEventListener("click", () => {
+  audio7.pause();
+});
+
+rewindButton7.addEventListener("click", () => {
+  audio7.currentTime -= 10;
+});
+
+forwardButton7.addEventListener("click", () => {
+  audio7.currentTime += 10;
+});
+
+
             </script> 
               <!--<audio controls name="song">
                 <source src="https://snuhfiles.com/sound/clash-police_on_my_back.mp3?play_key=e6ba8f023e92bbb5aaf06052cd0c6551" type="audio/mpeg">
@@ -125,7 +254,6 @@ forwardButton3.addEventListener("click", () => {
               </audio> 
             </div> -->
           
-    </div>
   
 </body>
 </html>
