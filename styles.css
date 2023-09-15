@@ -66,5 +66,4 @@ button:hover {color:gray;
 
 @media (max-width: 768px) {
   /* CSS styles for screens up to 768px wide (e.g., typical tablets) */
-.menu{width: 100%;
-background-color: white;}}
+.menu{width: 100% !important;}}
