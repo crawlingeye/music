@@ -17,7 +17,6 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: Edwardian;
   color: rgb(50, 50, 50);
   text-align: center;
 }
@@ -64,3 +63,7 @@ button:hover {color:gray;
   margin-right: auto;
   border-radius: 15px;
 }
+
+@media (max-width: 768px) {
+  /* CSS styles for screens up to 768px wide (e.g., typical tablets) */
+body{width: 100%;}}
